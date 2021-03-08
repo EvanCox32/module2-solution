@@ -1,0 +1,66 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+div {
+  background-color: gray;
+  font-family: Helvetica;
+  color: white;
+  box-sizing: border-box;
+  border-width: 5px;
+  border: solid white !important;
+  border-spacing: 5px
+
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+  position: relative;
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  float: right;
+}
+
+#p1 {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+}
+
+#p2 {
+  background-color: red;
+  font-weight: bold;
+}
+
+#p3 {
+  background-color: tan;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  color: black;
+  clear: right;
+  padding: 10px;
+  font-weight: bold;
+}
